@@ -1,4 +1,4 @@
-# 🌐 BetPoker MVP
+# 🌌 Alchemy_Verse MVP
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18-brightgreen)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
@@ -10,15 +10,15 @@
 
 ## 🚀 Introduction
 
-**BetPoker** is an immersive, decentralized Metaverse platform where users can explore, interact, and transact in a virtual world.  
-It leverages blockchain technology for ownership, transparency, and verifiable scarcity of digital assets.
+**Alchemy_Verse** is a decentralized Metaverse platform where users can explore, create, and transact in a fully tokenized virtual world.  
+It leverages blockchain technology for transparent ownership, NFT-based assets, and provably fair gameplay mechanics.
 
 **Key Features:**
 
 - 🌐 **Decentralized Digital Economy**: Buy, sell, and trade NFTs, tokens, and virtual assets securely  
 - 🕹️ **Immersive Experiences**: 3D worlds, interactive avatars, and multiplayer interactions  
 - 📱 **Cross-Platform Access**: Web, desktop, and mobile-ready  
-- 🔗 **Provably Fair Interactions**: Transparent blockchain-based asset transactions  
+- 🔗 **Provably Fair Interactions**: Blockchain-based verifiable transactions  
 - 🗣️ **Community & Social Features**: Real-time chat, events, and collaboration  
 
 ---
