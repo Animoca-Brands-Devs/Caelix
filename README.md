@@ -1,114 +1,356 @@
-# 🌌 Alchemy Verse MVP
+#  ClanCore
 
-[![Node.js](https://img.shields.io/badge/Node.js-v18-brightgreen)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
-[![Polygon](https://img.shields.io/badge/Polygon-EVM-purple)](https://polygon.technology/)
-[![Solidity](https://img.shields.io/badge/Solidity-^0.8.20-orange)](https://soliditylang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
----
-
-## 🚀 Introduction
-
-**Alchemy_Verse** is a decentralized Metaverse platform where users can explore, create, and transact in a fully tokenized virtual world.  
-It leverages blockchain technology for transparent ownership, NFT-based assets, and provably fair gameplay mechanics.
-
-**Key Features:**
-
-- 🌐 **Decentralized Digital Economy**: Buy, sell, and trade NFTs, tokens, and virtual assets securely  
-- 🕹️ **Immersive Experiences**: 3D worlds, interactive avatars, and multiplayer interactions  
-- 📱 **Cross-Platform Access**: Web, desktop, and mobile-ready  
-- 🔗 **Provably Fair Interactions**: Blockchain-based verifiable transactions  
-- 🗣️ **Community & Social Features**: Real-time chat, events, and collaboration  
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-v22-brightgreen" />
+  <img src="https://img.shields.io/badge/React-18-blue" />
+  <img src="https://img.shields.io/badge/Next.js-14-black" />
+  <img src="https://img.shields.io/badge/TypeScript-5-blue" />
+  <img src="https://img.shields.io/badge/Web3-Solana-purple" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-cyan" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
 ---
 
-## 🛠️ Current State Assessment
+# Overview
 
-- **Backend:** Node.js v18 with RESTful and WebSocket APIs  
-- **Frontend:** React / Next.js with WebGL / Unity integration  
-- **Metaverse Components:** Virtual world rendering, avatar management, NFT asset handling  
-- **Database:** PostgreSQL for structured data, MongoDB for flexible user content, IPFS for decentralized assets  
-- **Team Composition:**  
-  - 4 frontend developers (React, WebGL)  
-  - 2 blockchain developers (Solidity, EVM)  
-  - 2 backend developers (Node.js)  
-  - 1 Technical Manager  
+ClanCore is an immersive decentralized metaverse and blockchain gaming ecosystem built with modern Web3 technologies.
 
----
+The platform combines multiplayer gameplay, NFT ownership, blockchain integration, AI systems, and real-time interactions to create a scalable next-generation gaming experience.
 
-## ⚙️ Technology Stack
+ClanCore enables players to:
 
-- **Frontend:** React / Next.js / Three.js / Babylon.js / TailwindCSS  
-- **Backend:** Node.js / TypeScript / PostgreSQL / MongoDB / Redis  
-- **Blockchain:** Solidity / Hardhat / Ethers.js / Polygon  
-- **3D Engine:** WebGL / Unity integration / Phaser.js for mini-games  
-- **Metaverse Assets:** NFT / IPFS / Token-based economy  
-- **Analytics & AI:** Python v3.12 for behavior tracking, recommendation, and data insights  
-- **Enterprise Layer:** Modex BCDB middleware  
+-  Explore virtual worlds
+-  Play multiplayer games
+-  Own blockchain-based assets
+-  Trade NFTs
+-  Connect Solana wallets
+-  Interact in real-time environments
 
 ---
 
-## 🏗️ Architecture Overview
+#  Features
 
-The system is modular and service-oriented:
-
-- **Authentication Layer:** Web3 wallet login with SBT verification + traditional fallback  
-- **Virtual World Engine:** Modular 3D engine with multiple scenes and interaction layers  
-- **Blockchain Integration:** NFT ownership, token transactions, and asset verification  
-- **Social & Event Services:** Real-time chat, voice, and multiplayer events  
-- **Asset Management System:** NFT minting, trading, and lifecycle management  
-- **Identity & Reputation System:** Avatar & user profile achievements via SBT  
-- **Analytics Engine:** Tracks user engagement, transactions, and performance  
+-  Open World Metaverse
+-  Multiplayer Gameplay
+-  Solana Wallet Integration
+-  NFT Asset Ownership
+-  NFT Marketplace
+-  Real-Time Multiplayer Sync
+-  Live Chat & Social Features
+-  Global Leaderboards
+-  Player Statistics
+-  AI-Powered Systems
+-  Modern Responsive UI
+-  Cloud-Ready Infrastructure
+-  Docker Deployment Support
 
 ---
 
-## ⚡ Quick Start
+#  Tech Stack
 
-### 1️⃣ Clone & Install Dependencies
+## Frontend
+- React 19
+- Next.js 16
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Three.js
+- Babylon.js
+
+## Backend
+- Node.js
+- Express.js
+- Socket.IO
+- TypeScript
+
+## Blockchain
+- Polygon
+- Web3.js
+- Wallet Adapter
+
+## Database
+- MongoDB
+- Redis
+
+## DevOps
+- Docker
+- AWS
+- Vercel
+- GitHub Actions
+
+---
+
+#  Project Structure
+
+```text
+├───.vscode
+├───client
+│   ├───public
+│   └───src
+│       ├───apis
+│       ├───assets
+│       │   ├───fonts
+│       │   ├───game
+│       │   │   ├───cards
+│       │   │   └───cards-svg
+│       │   ├───icons
+│       │   └───img
+│       ├───components
+│       │   ├───buttons
+│       │   ├───cookies
+│       │   ├───decoration
+│       │   ├───forms
+│       │   ├───game
+│       │   │   ├───Betslider
+│       │   │   ├───BrandingImage
+│       │   │   └───Seat
+│       │   ├───icons
+│       │   ├───layout
+│       │   ├───loading
+│       │   ├───logo
+│       │   ├───modals
+│       │   ├───navigation
+│       │   ├───routing
+│       │   ├───typography
+│       │   └───user
+│       ├───context
+│       │   ├───game
+│       │   ├───global
+│       │   ├───localization
+│       │   ├───modal
+│       │   └───websocket
+│       ├───game
+│       ├───helpers
+│       ├───hooks
+│       ├───pages
+│       │   └───ConnectWallet
+│       ├───styles
+│       └───utils
+├───config
+├───controllers
+├───game
+├───middleware
+├───models
+├───routes
+│   └───api
+├───socket
+└───utils
+```
+
+---
+
+#  Prerequisites
+
+Before starting, install the following:
+
+- Node.js v20+
+- npm or yarn
+- Git
+- MongoDB
+- Polygon
+- MataMask Wallet
+
+---
+
+#  Quick Start
+
+## Clone Repository
+
+```bash
+git clone https://github.com/AvoloxHub/ClanCore.git
+cd ClanCore
+```
+
+---
+
+## Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 2️⃣ Run the Development Server
+or
+
 ```bash
-npm start
+yarn install
 ```
-### 3️⃣ Access the Application
-Open in your browser:
+
+
+# Run Development Servers
+
+## Start Backend
+
+```bash
+cd server
+npm run dev
+```
+
+---
+
+## Start Frontend
+
+```bash
+cd client
+npm run dev
+```
+
+---
+
+# Access Application
+
+Frontend:
+
 ```bash
 http://localhost:3000
 ```
 
-## 🖼️ Architecture Diagram
+Backend API:
 
-```text
-+----------------------+        +------------------------+        +----------------------+
-|      Frontend        | <----> |       Backend / API     | <----> |      Blockchain       |
-| React / Next.js      |        | Node.js / Express      |        | Solidity / Polygon    |
-| Three.js / Babylon.js|        | PostgreSQL / MongoDB   |        | NFT & Token Handling  |
-| TailwindCSS          |        | Redis / WebSocket      |        | Smart Contracts       |
-+----------------------+        +------------------------+        +----------------------+
-
-+----------------------+        +------------------------+        +----------------------+
-|  3D Engine / Unity   | <----> |  Asset Management      | <----> |  Identity & Reputation|
-|  WebGL Integration   |        | NFTs / Virtual Assets  |        | Soulbound Tokens (SBT)|
-+----------------------+        +------------------------+        +----------------------+
-
-+----------------------+        +------------------------+
-| Social & Event Layer | <----> |  Analytics & AI Engine |
-| Chat / Voice / Events|        | Behavior Tracking      |
-+----------------------+        | Recommendations        |
-                                +------------------------+
-
+```bash
+http://localhost:7777
 ```
 
-## 🛠️ Tech Stack
+---
 
-- **Frontend** – React / Next.js / Three.js / Babylon.js / TailwindCSS  
-- **Blockchain** – Solidity / Hardhat / Ethers.js / Polygon  
-- **Backend** – Node.js / TypeScript / PostgreSQL / MongoDB / Redis  
-- **3D Engine** – WebGL / Unity integration / Phaser.js for minigames  
-- **Metaverse Assets** – NFT / IPFS / Token-based economy  
-- **Analytics & AI** – Python v3.12 for behavior tracking, recommendation, and data insights  
-- **Enterprise Layer** – Modex BCDB middleware
+# Wallet Integration
+
+ClanCore supports:
+
+- MetaMask Wallet
+- Coinbase Wallet
+
+Players can securely:
+
+- Sign transactions
+- Own NFTs
+- Trade digital assets
+- Join multiplayer gameplay
+
+---
+
+# System Architecture
+
+```text
++----------------------+
+|      Frontend        |
+| React / Next.js      |
+| Three.js / Babylon   |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Backend API     |
+| Node.js / Express    |
+| Socket.IO            |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Blockchain      |
+| Solana / Web3.js     |
+| Smart Contracts      |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Database        |
+| MongoDB / Redis      |
++----------------------+
+```
+
+---
+
+# Security
+
+ClanCore follows modern Web3 security practices:
+
+- Wallet-based authentication
+- Encrypted sessions
+- Protected APIs
+- Smart contract verification
+- Rate limiting
+- Infrastructure security
+
+---
+
+# Roadmap
+
+- [x] Core Architecture
+- [x] Wallet Integration
+- [x] Multiplayer Support
+- [x] NFT Integration
+- [ ] NFT Marketplace
+- [ ] AI NPC Systems
+- [ ] DAO Governance
+- [ ] Mobile Application
+- [ ] VR Integration
+- [ ] Token Staking
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+## Steps
+
+1. Fork repository
+2. Create feature branch
+
+```bash
+git checkout -b feature/amazing-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add amazing feature"
+```
+
+4. Push branch
+
+```bash
+git push origin feature/amazing-feature
+```
+
+5. Open Pull Request
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Developer
+
+Built with passion by the Avolox Team.
+
+---
+
+# Acknowledgements
+
+- Polygon
+- React
+- Next.js
+- Three.js
+- Babylon.js
+- MongoDB
+- Tailwind CSS
+- Open Source Community
+
+---
+
+# Disclaimer
+
+This project is provided for educational and development purposes only.
+
+Users are responsible for compliance with local blockchain and digital asset regulations.
+
+---
+
+<p align="center">
+  Built for the Future of Web3 Gaming 🚀
+</p>
