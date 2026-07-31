@@ -1,4 +1,4 @@
-#  ClanCore
+#  Caelix
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-v22-brightgreen" />
@@ -14,11 +14,11 @@
 
 # Overview
 
-ClanCore is an immersive decentralized metaverse and blockchain gaming ecosystem built with modern Web3 technologies.
+Caelix is an immersive decentralized metaverse and blockchain gaming ecosystem built with modern Web3 technologies.
 
 The platform combines multiplayer gameplay, NFT ownership, blockchain integration, AI systems, and real-time interactions to create a scalable next-generation gaming experience.
 
-ClanCore enables players to:
+Caelix enables players to:
 
 -  Explore virtual worlds
 -  Play multiplayer games
@@ -158,8 +158,8 @@ Before starting, install the following:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/AvoloxHub/ClanCore.git
-cd ClanCore
+git clone https://github.com/AnimocaDevs/Caelix.git
+cd Caelix
 ```
 
 ---
@@ -215,7 +215,7 @@ http://localhost:7777
 
 # Wallet Integration
 
-ClanCore supports:
+Caelix supports:
 
 - MetaMask Wallet
 - Coinbase Wallet
@@ -263,7 +263,7 @@ Players can securely:
 
 # Security
 
-ClanCore follows modern Web3 security practices:
+Caelix follows modern Web3 security practices:
 
 - Wallet-based authentication
 - Encrypted sessions
