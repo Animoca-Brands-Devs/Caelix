@@ -158,7 +158,7 @@ Before starting, install the following:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/AnimocaDevs/Caelix.git
+git clone https://github.com/Animoca-Brands-Hub/Caelix.git
 cd Caelix
 ```
 
